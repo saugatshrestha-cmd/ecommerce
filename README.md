@@ -165,3 +165,7 @@ Before running this project, make sure you have the following installed:
 - `GET /cart` - Get user cart
 - `POST /cart` - Add item to cart
 
+### Stripe webhook to be written in terminal
+- stripe listen --forward-to localhost:3000/payment/webhook
+
+
