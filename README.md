@@ -145,26 +145,23 @@ Before running this project, make sure you have the following installed:
 ## Some API Endpoints
 
 ### Authentication
-- `POST /api/auth/register` - User registration
-- `POST /api/auth/login` - User login
-- `POST /api/auth/logout` - User logout
+- `POST /auth/register` - User registration
+- `POST /auth/login` - User login
+- `POST /auth/logout` - User logout
 
 ### Products
-- `GET /api/products` - Get all products
-- `GET /api/products/:id` - Get product by ID
-- `POST /api/products` - Create new product (Admin)
-- `PUT /api/products/:id` - Update product (Admin)
-- `DELETE /api/products/:id` - Delete product (Admin)
+- `GET /products` - Get all products
+- `GET /products/:id` - Get product by ID
+- `POST /products` - Create new product (Seller)
+- `PUT /products/:id` - Update product (Seller)
+- `DELETE /products/:id` - Delete product (Admin and Seller)
 
 ### Orders
-- `GET /api/orders` - Get user orders
-- `POST /api/orders` - Create new order
-- `GET /api/orders/:id` - Get order details
-- `PUT /api/orders/:id` - Update order status (Admin)
+- `GET /orders` - Get user orders
+- `POST /orders` - Create new order
+- `GET /orders/:id` - Get order details
 
 ### Cart
-- `GET /api/cart` - Get user cart
-- `POST /api/cart` - Add item to cart
-- `PUT /api/cart/:id` - Update cart item
-- `DELETE /api/cart/:id` - Remove item from cart
+- `GET /cart` - Get user cart
+- `POST /cart` - Add item to cart
 
